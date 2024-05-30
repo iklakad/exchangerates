@@ -40,3 +40,5 @@ print( "The maximum value of Newzealnd Exchange Rate for the given month is ",Ma
 #to find the average exchange rate for a given month of data
 Avg_Newzealand_Exchangerate = df_Exchangerate_aftertranspose['Newzealand_Exchangerate'].mean(axis=0)
 print( "The average value of Newzealnd Exchange Rate for the given month is ",Avg_Newzealand_Exchangerate)
+
+################Calculating aggregations end##################
