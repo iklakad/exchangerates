@@ -20,7 +20,7 @@ df_Exchangerate_aftertranspose = df_Exchangerate_aftertranspose.rename(columns =
 print("The data looks as below after pre process:\n" ,df_Exchangerate_aftertranspose)
 #to create text file from dataframe
 custom_delimiter = '"'
-df_Exchangerate_aftertranspose.to_csv("C:\\Users\\rpyla\\OneDrive - Bendigo Kangan Institute\Desktop\\python\\ExchangesRates_May.txt",sep=custom_delimiter)
+df_Exchangerate_aftertranspose.to_csv("C:\\Users\\rpyla\\OneDrive - Bendigo Kangan Institute\\Desktop\\python\\ExchangesRates_May.txt",sep=custom_delimiter)
 ################Pre Process end##################
 
 ################Calculating aggregations start##################
