@@ -1,6 +1,6 @@
 import pandas as pd
 import json 
-Exchangerate_RawData = open('C://Users//rpyla//OneDrive - Bendigo Kangan Institute//Desktop//python//Exchangerate_RawData.json','r')
+Exchangerate_RawData = open('C://****//Exchangerate_RawData.json','r')
 # to read json format by parse a JSON string
 Exchangerate_RawData = json.loads(Exchangerate_RawData.read())
 #to view the keys that exist in json file
@@ -20,7 +20,7 @@ df_Exchangerate_aftertranspose = df_Exchangerate_aftertranspose.rename(columns =
 print("The data looks as below after pre process:\n" ,df_Exchangerate_aftertranspose)
 #to create text file from dataframe
 custom_delimiter = '"'
-df_Exchangerate_aftertranspose.to_csv("C:\\Users\\rpyla\\OneDrive - Bendigo Kangan Institute\\Desktop\\python\\ExchangesRates_May.txt",sep=custom_delimiter)
+df_Exchangerate_aftertranspose.to_csv("C:*****\\ExchangesRates_May.txt",sep=custom_delimiter)
 ################Pre Process end##################
 
 ################Calculating aggregations start##################
